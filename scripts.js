@@ -6,6 +6,7 @@
 // Thank you For VIEWING!
 // Feel free to fork and pull request.
 
+// Character Creation
 var name = prompt("Please enter your name", "Lame Warrior");
 var message = document.write
  message("Hi " + name + "!" )
