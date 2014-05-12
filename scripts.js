@@ -1,3 +1,11 @@
+// (C)opyright Heark Gaming
+// Special thanks to Mascara for the compilation
+// DO NOT USE WITHOUT PERMISSION
+// Version 0.1
+// Completion Percentage 2%
+// Thank you For VIEWING!
+// Feel free to fork and pull request.
+
 var name = prompt("Please enter your name", "Lame Warrior");
 var message = document.write
  message("Hi " + name + "!" )
@@ -30,7 +38,7 @@ var message = document.write
 classchoose = off
 var race = prompt("Please enter your race", "Human");
 var gender = prompt("Please enter your gender", "Male");
- document.write("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
+ message("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
 
 // Skills
 
