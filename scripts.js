@@ -1,7 +1,7 @@
-// Character Creation
-
 var name = prompt("Please enter your name", "Lame Warrior");
- document.write("Hi " + name + "!" )
+var message = document.write
+ message("Hi " + name + "!" )
+
 
  var classchoose = alert("Please choose your class")
  var on = true
@@ -9,25 +9,45 @@ var name = prompt("Please enter your name", "Lame Warrior");
  var userclass = prompt(name + "Please enter your class", " ");
  classchoose = on
  if(classchoose == on){
- document.write(" Classes: Paladin, Mage, and Cleric.")
- 
- else if(userclass == "Paladin"){
-  document.write("You're a Paladin!");
+ message(" Classes: Paladin, Mage, and Cleric.")
+ }
+ if(userclass == "Paladin"){
+  message("You're a Paladin!");
  }
  
  else if(userclass == "Mage"){
-  document.write("You're a Mage!");
+  message("You're a Mage!");
  }
  
  else if(userclass == "Cleric"){
-  document.write("You're a Cleric!");
+  message("You're a Cleric!");
  }
  else{
-  document.write("Class doesn't exist! Please try again.");
-  prompt(name + ", Please enter your class", " ");
+  message("Class doesn't exist! Please try again.")
+  var userclass = prompt(name + "Please enter your class", " ");
+  
 
 classchoose = off
 var race = prompt("Please enter your race", "Human");
 var gender = prompt("Please enter your gender", "Male");
-document.write("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
-// Enemy Creation
+ document.write("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
+
+// Skills
+
+var skills = this;
+if(userclass == "Paladin")
+var skill = Array["slice", "punch", "attack", "kick", "run", "Special"];
+var basehp = 12
+var basedef = 15
+var baseagi = 20
+var basemag = 0
+
+else if(userclass == "Mage")
+var skillM = Array["Punch", "Magic", "Run", "Special"]
+var basehp = 14
+var basedef = 10
+var baseagi = 13
+var basemag = 25
+
+}
+
