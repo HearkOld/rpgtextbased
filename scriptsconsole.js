@@ -29,18 +29,23 @@ var message = console.log
  
  else if(userclass == "Mage"){
   message("You're a Mage!");
+  var race = prompt("Please enter your race", "Human");
+var gender = prompt("Please enter your gender", "Male");
+ message("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
  }
  
  else if(userclass == "Cleric"){
   message("You're a Cleric!");
+  var race = prompt("Please enter your race", "Human");
+var gender = prompt("Please enter your gender", "Male");
+ message("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
  }
  else{
   message("Class doesn't exist! Please try again.")
   var userclass = prompt(name + "Please enter your class", " ");
   
-
-
 classchoose = off
+
 var race = prompt("Please enter your race", "Human");
 var gender = prompt("Please enter your gender", "Male");
  message("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
