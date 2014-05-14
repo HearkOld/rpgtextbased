@@ -58,6 +58,7 @@ var skills = this;
 if(userclass == "Paladin"){
 var skill = Array["slice", "punch", "attack", "kick", "run","Special"];
 var basehp = 12
+var baseatt = 22
 var basedef = 15
 var baseagi = 20
 var basemag = 0
@@ -66,9 +67,15 @@ var basemag = 0
 else if(userclass == "Mage"){
 var skillM = Array["Punch", "Magic", "Run", "Special"]
 var basehp = 14
+var baseatt = 10
 var basedef = 10
 var baseagi = 13
 var basemag = 25
 }
 
+}
+
+// Battle/Damage
+var physdamage = Math.random() * (10 - 100) + 10 + baseatt * 2
+var magdamage = Math.random() * (20 - 95) + 20 + basemag * 2
 }
