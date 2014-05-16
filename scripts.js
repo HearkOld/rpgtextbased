@@ -13,29 +13,10 @@
     var enemydef = 3
     var enemyagi = 10
     }
-
-
-
-
 // Character Creation
 var name = prompt("Please enter your name", "Lame Warrior");
 var message = document.write
  message("Hi " + name + "!" )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  var classchoose = alert("Please choose your class")
  var on = true
@@ -68,27 +49,12 @@ var gender = prompt("Please enter your gender", "Male");
   
 classchoose = off
 
-
-
-
 var race = prompt("Please enter your race", "Human");
 var gender = prompt("Please enter your gender", "Male");
  message("So you are " + name + " the " + gender + " " + race + " " + userclass + ".")
 
 
-
-
-
-
-
-
 // Skills
-
-
-
-
-
-
 
 
 var skills = this;
@@ -114,10 +80,7 @@ var basemag = 25
 }
 
 
-
-
 }
-
 
 // enemy creations
 function Cat (catstats) {
