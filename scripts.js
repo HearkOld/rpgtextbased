@@ -3,9 +3,10 @@
 // Special thanks to Mascara for the compilation
 // OPEN SOURCE PROJECT :)
 // Version 0.1
-// Completion Percentage 2%
+// Completion Percentage 3%
 // Thank you For VIEWING!
 // Feel free to fork and pull request.
+// This is the console version and must be ran in a console!
 // *******************************************************************************************************************************
     var catstats = this; {
     var enemyhp = 20
@@ -15,7 +16,7 @@
     }
 // Character Creation
 var name = prompt("Please enter your name", "Lame Warrior");
-var message = document.write
+var message = console.log
  message("Hi " + name + "!" )
 
  var classchoose = alert("Please choose your class")
@@ -59,7 +60,6 @@ var gender = prompt("Please enter your gender", "Male");
 
 var skills = this;
 if(userclass == "Paladin"){
-var skill = Array["slice", "punch", "attack", "kick", "run","Special"];
 var basehp = 550
 var baseatt = 22
 var basedef = 15
@@ -71,7 +71,6 @@ var basemag = 0
 
 
 else if(userclass == "Mage"){
-var skillM = Array["Punch", "Magic", "Run", "Special"]
 var basehp = 500
 var baseatt = 10
 var basedef = 10
@@ -92,16 +91,24 @@ this.enemyagi
 // Battle/Damage
 var physdamage = Math.random() * (10 - 100) + 10 + baseatt * 2 - enemydef * 2
 var magdamage = Math.random() * (20 - 95) + 20 + basemag * 2 - enemydef * 2
-
+var punchdamage = 5
 
 // Battle example
 this.Cat; {
 message("A Wild cat appeared!")
 message("Fight begins!")
+
 var skillchoose = prompt("What attack would you like to do?")
-if(skillchoose == "Punch")
-message(name + " did" + physdamage + "!")
-enemyhp - physdamage
+if(skillchoose == "Punch"){
+message(name + " did " + physdamage + punchdamage + " damage!")
+if (enemyhp <= 0)
+message(name + " defeated the cat!")
+else{
+message("enemy has " + enemyhp  - physdamage + punchdamage + " hp left!")
+return
+}
+}
+
 
 
 }
