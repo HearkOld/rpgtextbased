@@ -100,6 +100,8 @@ message("A Wild cat appeared!")
 message("Fight begins!")
 var skillchoose = prompt("What attack would you like to do?")
 if(skillchoose == "Punch")
+message(name + " did" + physdamage + "!")
+enemyhp - physdamage
 
 
 }
