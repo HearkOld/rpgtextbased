@@ -94,7 +94,7 @@ this.Cat; {
         if (enemyhp <= 0) message(name + " defeated the cat!")
         else {
             message("enemy has " + enemyhp - physdamage + punchdamage + " hp left!")
-            return
+            return;
         }
     }
 
