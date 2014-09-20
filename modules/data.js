@@ -1,5 +1,5 @@
 // Data 
-var Data = function this; {
+var Data = function (Data) {
 userclass = userclasses
 userskills = userskill
 username = name
@@ -9,7 +9,7 @@ username = name
   this.username
   
 }
-var Get = function this {
+var Get = function (Get) {
 data();
 var userclass = newArray['']
 var userskills = newArray['']
