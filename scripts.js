@@ -91,8 +91,8 @@ this.Cat; {
     var skillchoose = prompt("What attack would you like to do?")
     if (skillchoose == "Punch") {
         message(name + " did " + physdamage + punchdamage + " damage!")
-        if (enemyhp <= 0) message(name + " defeated the cat!")
-        else {
+        if (enemyhp >= 0) message(name + " defeated the cat!")
+        else if (enemyhp <= 0) {
             message("enemy has " + enemyhp - physdamage + punchdamage + " hp left!")
             return;
         }
