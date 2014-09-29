@@ -7,7 +7,7 @@ var stats = {
     spD === 11
 }
 
-var Magicbasestats = {
+var basestats = {
     this.spA
     this.Att
     this.Def
