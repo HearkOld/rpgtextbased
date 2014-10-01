@@ -11,8 +11,8 @@ username = name
 }
 var Get = function (Get) {
 data();
-var userclass = newArray['']
-var userskills = newArray['']
+var userclass = ['']
+var userskills = ['']
 var username = this.name
 }
 // gathering the data
