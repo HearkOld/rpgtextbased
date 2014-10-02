@@ -77,6 +77,14 @@ if (userclass == "Paladin") {
 
 
 }
+// Player
+var player = function(basehp, baseatt, basedef, basespa, basespd){
+    this.basehp = health;
+    this.baseatt = attack;
+    this.basedef = defense;
+    this.basespa = specialattack;
+    this.basespd = specialdefense;
+}
 
 // enemy creations
 function Cat(catstats) {
