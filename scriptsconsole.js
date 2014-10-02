@@ -14,7 +14,7 @@
     var enemyagi = 10
     }
 
-
+var player = function(baseattack, basehp, basedef, basespa, basespd)
 // Character Creation
 var name = prompt("Please enter your name", "Lame Warrior");
 var message = console.log
