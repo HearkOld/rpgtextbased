@@ -14,6 +14,13 @@ var catstats = this; {
     var enemydef = 3
     var enemyagi = 10
 }
+var player = function(basehp, baseatt, basedef, basespa, basespd){
+    this.basehp = health;
+    this.baseatt = attack;
+    this.basedef = defense;
+    this.basespa = specialattack;
+    this.basespd = specialdefense;
+}
 // Character Creation
 var name = prompt("Please enter your name", "Lame Warrior");
 var message = console.log
