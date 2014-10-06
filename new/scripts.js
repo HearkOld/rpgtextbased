@@ -1,3 +1,12 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//   (C)opyright Heark Gaming Co.                                                                   //
+//   RPG Script v0.6                                                                                //
+//   This is the updated version of Heark's RPG Script                                              //
+// See Original script here: https://raw.githubusercontent.com/Heark/rpgtextbased/master/scripts.js //
+//   Authored on 9/??/2014                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 // info gather
 var name = prompt("what is your name?")
 var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
