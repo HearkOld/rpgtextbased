@@ -4,12 +4,12 @@ var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
 var userclass = prompt("Please choose your class.")
 
 // creating players
-var player = function(basehp, baseatt, basedef, basespa, basespd){
-    this.basehp = health;
-    this.baseatt = attack;
-    this.basedef = defense;
-    this.basespa = specialattack;
-    this.basespd = specialdefense;
+var player = function(health, attack, defense, specialattack, specialdefense){
+    this.health = health;
+    this.attack = attack;
+    this.defense = defense;
+    this.specialattack = specialattack;
+    this.specialdefense = specialdefense;
 }
 var move = function(damage, accuracy){
     this.damage = damage;
