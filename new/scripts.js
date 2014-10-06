@@ -11,6 +11,7 @@ var player = function(health, attack, defense, specialattack, specialdefense){
     this.specialattack = specialattack;
     this.specialdefense = specialdefense;
 }
+// moves
 var move = function(damage, accuracy){
     this.damage = damage;
     this.accuracy = accuracy;
@@ -19,6 +20,15 @@ var healmove = function(range, accuracy){
     this.rang = range;
     this.accuracy = accuracy;
 }
+// creating enemies
+var enemy = function(health, attack, defense, specialattack, specialdefense){
+    this.health = health;
+    this.attack = attack;
+    this.defense = defense;
+    this.specialattack = specialattack;
+    this.specialdefense = specialdefense;   
+}
+var evilcat = new enemy(40, 3, 4, 3, 4)
 // creating the skills
 var punch = new move(10,100)
 var kick = new move(15,85)
