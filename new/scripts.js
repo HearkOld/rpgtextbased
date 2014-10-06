@@ -15,11 +15,21 @@ var move = function(damage, accuracy){
     this.damage = damage;
     this.accuracy = accuracy;
 }
+var healmove = function(range, accuracy){
+    this.rang = range;
+    this.accuracy = accuracy;
+}
 // creating the skills
 var punch = new move(10,100)
 var kick = new move(15,85)
+var wisp = new move(12,100)
+var minorheal = new healmove(5,100)
 // class creation
 if (userclass == "Paladin"){
     var user = new player(100, 12, 10, 5, 6)
     var skills = [punch, kick]
+}
+else if (userclass == "Mage"){
+    var user = new player(100, 6, 6, 14, 11)
+    var skills = [wisp, minorheal]
 }
