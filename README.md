@@ -1,12 +1,6 @@
 rpgtextbased
 ============
-EMOJI CHEAT SHEET
 
-Emoji emoticons listed on this page are supported on Campfire, GitHub, Basecamp, Redbooth, Trac, Flowdock, Sprint.ly, Kandan, Textbox.io, Kippt, Redmine, JabbR, Trello, Hall, plug.dj, Qiita, Zendesk, Ruby China, Grove, Idobata, NodeBB Forums, Slack, Streamup, OrganisedMinds, Hackpad, Cryptbin, Kato, Reportedly, Cheerful Ghost, IRCCloud, Dashcube, MyVideoGameList, Subrosa, Sococo, Quip, And Bang, Bonusly, and Discourse.
-However some of the emoji codes are not super easy to remember, so here is a little cheat sheet.
-✈ Got flash enabled? Click the emoji code and it will be copied to your clipboard.
-
-People
 
 :bowtie:
 :smile:
@@ -893,18 +887,5 @@ Symbols
 :small_red_triangle:
 :small_red_triangle_down:
 :shipit:
-Campfire also supports a few sounds
 
 ► /play secret► /play trombone► /play crickets► /play rimshot► /play vuvuzela► /play tmyk► /play live► /play drama► /play yeah► /play greatjob► /play pushit► /play nyan► /play tada► /play ohmy► /play bueller► /play ohyeah► /play 56k► /play dangerzone► /play horn► /play horror► /play loggins► /play yodel► /play sax► /play noooo► /play heygirl► /play inconceivable► /play deeper► /play whoomp► /play clowntown► /play what► /play bezos► /play trololo► /play makeitso► /play sexyback► /play bell► /play danielsan► /play greyjoy► /play story► /play dadgummit► /play rollout► /play cottoneyejoe► /play rumble► /play guarantee► /play unix► /play letitgo
-
-
-
-This page was created by Arvid Andersson / @arvid_a at Oktavilla. Source code is available on GitHub.
-
-❤ Contributors: kennethreitz, skiz, jstorimer, asianmack, kuinak, mathias, bryanveloso, joeljunstrom, petermanser, mattiasottosson, wjessop, igorsantos07, pyricau, JustinCampbell, fixlr, trevorturk, ejensen, talltroym, juliamae, vinbarnes, madasi, niclasgelin, pykler, arunagw, lawa, himynameisjonas, martinlissmyr, hassankhan, leereilly, drewtempelmeyer, bitboxer, mattrobenolt, wdaher, HenrikJoreteg, KamranMackey, fusion94, rocketslide, streeter, pjaspers, bhellman1, take, nicholasserra, MichaelBanks, GrahamCampbell, hnrc, and awesomerobot.
-
-✔ Emoji-cheat-sheet.com is not affiliated with 37signals, LLC. or GitHub Inc. in any way.
-
-♺ Built using bits from zClip, SubtlePatterns, jnotify, and list.js.
-
- Fork me on GitHub
