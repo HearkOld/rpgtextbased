@@ -45,7 +45,4 @@ else if (userclass == "Mage"){
 }
 
 // attack script
-var attack = prompt("???")
-if (attack == "Punch"){
-  punch(damage) + attack
-}
+damage + attack
