@@ -1,1 +1,1 @@
-(http://cdn.thebasementwizard.com/images/wizard.png)
+![Image of Mage](http://cdn.thebasementwizard.com/images/wizard.png)
