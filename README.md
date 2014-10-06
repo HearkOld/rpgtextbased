@@ -887,5 +887,3 @@ Symbols
 :small_red_triangle:
 :small_red_triangle_down:
 :shipit:
-
-► /play secret► /play trombone► /play crickets► /play rimshot► /play vuvuzela► /play tmyk► /play live► /play drama► /play yeah► /play greatjob► /play pushit► /play nyan► /play tada► /play ohmy► /play bueller► /play ohyeah► /play 56k► /play dangerzone► /play horn► /play horror► /play loggins► /play yodel► /play sax► /play noooo► /play heygirl► /play inconceivable► /play deeper► /play whoomp► /play clowntown► /play what► /play bezos► /play trololo► /play makeitso► /play sexyback► /play bell► /play danielsan► /play greyjoy► /play story► /play dadgummit► /play rollout► /play cottoneyejoe► /play rumble► /play guarantee► /play unix► /play letitgo
