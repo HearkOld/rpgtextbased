@@ -33,3 +33,9 @@ else if (userclass == "Mage"){
     var user = new player(100, 6, 6, 14, 11)
     var skills = [wisp, minorheal]
 }
+
+// attack script
+var attack = prompt("???")
+if (attack == "Punch"){
+  punch(damage) + attack
+}
