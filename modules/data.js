@@ -1,8 +1,9 @@
 // Data 
 var Data = function (Data) {
-userclass = userclasses
-userskills = userskill
-username = name
+  Data = this.Data;
+  userclass = userclasses
+  userskills = userskill
+  username = name
 
   this.userclass
   this.userskill
