@@ -26,7 +26,7 @@ var move = function(damage, accuracy){
     this.accuracy = accuracy;
 }
 var healmove = function(range, accuracy){
-    this.rang = range;
+    this.range = range;
     this.accuracy = accuracy;
 }
 // creating enemies
