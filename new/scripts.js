@@ -71,5 +71,13 @@ names = "Evil Cat";
 }
 // Part 2
 if (user.health <= 0){
+    console.log("You died! Noob!")
+}
+if (evilcat.health <= 0){
+    console.log("You defeated the cat")
+}
+console.log('Cat appeared!')
+var skillchoose = prompt("Choose your attack")
+if (skillchoose = Punch){
     
 }
