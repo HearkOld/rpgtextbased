@@ -68,6 +68,7 @@ console.log('Cat appeared!')
 do {
     var skillchoose = prompt("Choose your attack")
 if (skillchoose = "Punch" || "punch"){
+    punch.damage = punch.damage + user.attack
     evilcat.health = evilcat.health - punch.damage
     console.log("Cat has " +evilcat.health+ " Health left.")
   if (user.health <= 0){
