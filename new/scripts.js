@@ -36,14 +36,15 @@ var enemy = function(health, attack, defense, specialattack, specialdefense){
     this.specialdefense = specialdefense;   
 }
 var evilcat = new enemy(40, 3, 4, 3, 4)
-var dragon = new enemy(50, 5, 4, 3, 4)
-var orc = new enemy(10, 1, 1, 1, 1)
-var ogre = new enemy(25, 3, 4, 4, 5)
+var dragon = new enemy(135, 5, 4, 3, 4)
+var orc = new enemy(85, 1, 1, 1, 1)
+var ogre = new enemy(105, 3, 4, 4, 5)
 // creating the skills
 var punch = new move(10,100)
 var kick = new move(15,85)
 var wisp = new move(12,100)
 var minorheal = new healmove(5,100)
+var scratch = new move(2,100)
 // class creation
 var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
 var userclass = prompt("Please Choose your class.")
@@ -65,18 +66,29 @@ var randnum = Math.floor(Math.random(10)*10);
 // Part 1
 
 console.log('Cat appeared!')
-do {
+catbattle = true
+if (catbattle = true) do {
     var skillchoose = prompt("Choose your attack")
-if (skillchoose = "Punch" || "punch"){
+if (skillchoose == "Punch" || "punch"){
+    scratch.damage = scratch.damage + evilcat.attack
     punch.damage = punch.damage + user.attack
     evilcat.health = evilcat.health - punch.damage
     console.log("Cat has " +evilcat.health+ " Health left.")
+    console.log("Cat used scratch!")
+
+
+}
+if (skillchoose == "Kick" || "kick"){
+    
+}
+    user.health = user.health - scratch.damage 
+    console.log("You have "+user.health+ " left.")
+}
+while (evilcat.health >= 0);
   if (user.health <= 0){
     console.log("You died! Noob!")
 }
 if (evilcat.health <= 0){
     console.log("You defeated the cat")
+    catbattle = false
 } 
-}
-}
-while (evilcat.health >= 0);
