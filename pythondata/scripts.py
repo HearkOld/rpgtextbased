@@ -1,1 +1,2 @@
 # Startup
+players = [this,this]
