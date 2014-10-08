@@ -67,10 +67,12 @@ var randnum = Math.floor(Math.random(10)*10);
 
 console.log('Cat appeared!')
 catbattle = true
+
 if (catbattle = true) do {
+    scratch.damage = scratch.damage + evilcat.attack
     var skillchoose = prompt("Choose your attack")
 if (skillchoose == "Punch" || "punch"){
-    scratch.damage = scratch.damage + evilcat.attack
+    
     punch.damage = punch.damage + user.attack
     evilcat.health = evilcat.health - punch.damage
     console.log("Cat has " +evilcat.health+ " Health left.")
