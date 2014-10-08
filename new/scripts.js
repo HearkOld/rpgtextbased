@@ -47,11 +47,11 @@ var minorheal = new healmove(5,100)
 // class creation
 var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
 var userclass = prompt("Please Choose your class.")
-if (userclass == "Paladin"){
+if (userclass == "Paladin" || "paladin"){
     var user = new player(100, 12, 10, 5, 6)
     var skills = [punch, kick]
 }
-else if (userclass == "Mage"){
+else if (userclass == "Mage" || "mage"){
     var user = new player(100, 6, 6, 14, 11)
     var skills = [wisp, minorheal]
 }
@@ -63,21 +63,19 @@ var randnum = Math.floor(Math.random(10)*10);
 
 // battle script
 // Part 1
-//selected monster
-var selectedmonster;
-if (fightcat = true){
-selectedmonster = evilcat;
-names = "Evil Cat";
-}
-// Part 2
-if (user.health <= 0){
+
+console.log('Cat appeared!')
+do {
+    var skillchoose = prompt("Choose your attack")
+if (skillchoose = "Punch" || "punch"){
+    evilcat.health = evilcat.health - punch.damage
+    console.log("Cat has " +evilcat.health+ " Health left.")
+  if (user.health <= 0){
     console.log("You died! Noob!")
 }
 if (evilcat.health <= 0){
     console.log("You defeated the cat")
+} 
 }
-console.log('Cat appeared!')
-var skillchoose = prompt("Choose your attack")
-if (skillchoose = Punch){
-    
 }
+while (evilcat.health >= 0);
