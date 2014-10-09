@@ -73,6 +73,7 @@ if (catbattle = true) do {
     var skillchoose = prompt("Choose your attack")
 if (skillchoose == "Punch" || "punch"){
     if (skills = punch){
+    console.log(name+ " used Punch!")
     punch.damage = punch.damage + user.attack
     evilcat.health = evilcat.health - punch.damage
     console.log("Cat has " +evilcat.health+ " Health left.")
@@ -85,7 +86,11 @@ else{
 
 }
 if (skillchoose == "Kick" || "kick"){
-    
+    console.log(name+ " used Kick!")
+    kick.damage = kick.damage + user.attack
+    evilcat.health = evilcat.health - kick.damage
+    console.log("Cat has " +evilcat.health+ " Health left.")
+    console.log("Cat used scratch!")   
 }
     user.health = user.health - scratch.damage 
     console.log("You have "+user.health+ " left.")
