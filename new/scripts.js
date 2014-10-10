@@ -70,5 +70,12 @@ console.log('Cat appeared!')
 var battle = function(enemy, player){
 
 }
+if (randnum > 5){
     catbattle = true
+} else {
+    console.log("No Fight!")
+}
+if (catbattle = true){
+    console.log('Cat appeared!')
+}
 if (catbattle = true) do {
