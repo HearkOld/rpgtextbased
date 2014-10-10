@@ -67,6 +67,8 @@ var randnum = Math.floor(Math.random(10)*10);
 // Part 1
 
 console.log('Cat appeared!')
-var battle = function();
-catbattle = true
+var battle = function(enemy, player){
+
+}
+    catbattle = true
 if (catbattle = true) do {
