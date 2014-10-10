@@ -28,17 +28,18 @@ var healmove = function(range, accuracy){
     this.accuracy = accuracy;
 }
 // creating enemies
-var enemy = function(health, attack, defense, specialattack, specialdefense){
+var enemy = function(name, health, attack, defense, specialattack, specialdefense){
+    this.name = name;
     this.health = health;
     this.attack = attack;
     this.defense = defense;
     this.specialattack = specialattack;
     this.specialdefense = specialdefense;   
 }
-var evilcat = new enemy(40, 3, 4, 3, 4)
-var dragon = new enemy(135, 5, 4, 3, 4)
-var orc = new enemy(85, 1, 1, 1, 1)
-var ogre = new enemy(105, 3, 4, 4, 5)
+var evilcat = new enemy("Evil Cat", 40, 3, 4, 3, 4)
+var dragon = new enemy("Dragon", 135, 5, 4, 3, 4)
+var orc = new enemy("Orc", 85, 1, 1, 1, 1)
+var ogre = new enemy("Ogre", 105, 3, 4, 4, 5)
 // creating the skills
 var punch = new move(10,100)
 var kick = new move(15,85)
