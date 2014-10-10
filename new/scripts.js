@@ -67,40 +67,6 @@ var randnum = Math.floor(Math.random(10)*10);
 // Part 1
 
 console.log('Cat appeared!')
+var battle = function();
 catbattle = true
-
 if (catbattle = true) do {
-    scratch.damage = scratch.damage + evilcat.attack
-    var skillchoose = prompt("Choose your attack")
-if (skillchoose == "Punch" || "punch"){
-    if (skills = punch){
-    console.log(name+ " used Punch!")
-    punch.damage = punch.damage + user.attack
-    evilcat.health = evilcat.health - punch.damage
-    console.log("Cat has " +evilcat.health+ " Health left.")
-    console.log("Cat used scratch!")
- 
-    }
-else{
-    
-}
-
-}
-if (skillchoose == "Kick" || "kick"){
-    console.log(name+ " used Kick!")
-    kick.damage = kick.damage + user.attack
-    evilcat.health = evilcat.health - kick.damage
-    console.log("Cat has " +evilcat.health+ " Health left.")
-    console.log("Cat used scratch!")   
-}
-    user.health = user.health - scratch.damage 
-    console.log("You have "+user.health+ " left.")
-}
-while (evilcat.health >= 0);
-  if (user.health <= 0){
-    console.log("You died! Noob!")
-}
-if (evilcat.health <= 0){
-    console.log("You defeated the cat")
-    catbattle = false
-} 
