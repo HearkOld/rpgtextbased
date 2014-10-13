@@ -117,10 +117,10 @@ else { console.log("You don't have this item!");
 input;
     }
 }
-while (evilcat.health <= 0){
+while (selectedmonster.health <= 0){
+    if (selectedmonster.health <= 0){
     console.log("You killed the " +selectedmonster);
     console.log("Cat dropped a Minor Potion");
     item.push(minorpotion);
+    }
 };
-
-
