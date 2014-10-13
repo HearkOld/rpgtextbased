@@ -102,8 +102,8 @@ if (catbattle = true){
 }
 if (catbattle = true) do {
     var input = prompt("What do you do!?");
-console.log("Commands: Inventory, " +skills.name+ ".");
 if (input == "Inventory"){
+    console.log("Commands: Inventory, " +skills.name+ ".");
     alert("Your Items are" +inventory.name+ ".");
     var iteminput = prompt("What Item would you like to use?");
     if (iteminput == "Bomb"){
