@@ -12,7 +12,6 @@ var name = prompt("what is your name?")
 
 // creating players
 var player = function(name, health, attack, defense, specialattack, specialdefense){
-    this.name = name;
     this.health = health;
     this.attack = attack;
     this.defense = defense;
