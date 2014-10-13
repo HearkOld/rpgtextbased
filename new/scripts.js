@@ -92,3 +92,14 @@ if (catbattle = true){
     console.log('Cat appeared!')
 }
 if (catbattle = true) do {
+    var input = prompt("What do you do!?")
+    Array.prototype.contains = function(elem)
+{
+   for (var i in this)
+   {
+       if (this[i] == elem) return true;
+   }
+   return false;
+}
+if (inventory.contains(bomb));
+else ;
