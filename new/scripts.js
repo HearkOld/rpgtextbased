@@ -78,7 +78,7 @@ var randnum = Math.floor(Math.random(10)*10);
 
 // battle script
 // Part 1
-
+var selectedmonster;
 console.log('Cat appeared!')
 var battle = function(enemy, player){
 
@@ -89,6 +89,7 @@ if (randnum > 5){
     console.log("No Fight!");
 }
 if (catbattle = true){
+    selectedmonster = evilcat;
     console.log('Cat appeared!');
 }
     Array.prototype.contains = function(elem)
@@ -107,8 +108,8 @@ if (input == "Inventory"){
     var iteminput = prompt("What Item would you like to use?");
     if (iteminput == "Bomb"){
         if (inventory.contains(bomb)){
-            console.log("You threw a bomb at" +evilcat.name+ ".");
-            evilcat.health = evilcat.health - bomb.damage;
+            console.log("You threw a bomb at" +selectedmonster.name+ ".");
+            selectedmonster.health = selectedmonster.health - bomb.damage;
         }
     }
 }
@@ -116,6 +117,10 @@ else { console.log("You don't have this item!");
 input;
     }
 }
-while (evilcat.health <= 0);
+while (evilcat.health <= 0){
+    console.log("You killed the " +selectedmonster);
+    console.log("Cat dropped a Minor Potion");
+    item.push(minorpotion);
+};
 
 
