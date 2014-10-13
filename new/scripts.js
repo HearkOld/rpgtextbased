@@ -20,7 +20,8 @@ var player = function(name, health, attack, defense, specialattack, specialdefen
     this.specialdefense = specialdefense;
 }
 // moves
-var move = function(damage, accuracy){
+var move = function(name, damage, accuracy){
+    this.name = name;
     this.damage = damage;
     this.accuracy = accuracy;
 }
@@ -42,11 +43,11 @@ var dragon = new enemy("Dragon", 135, 5, 4, 3, 4)
 var orc = new enemy("Orc", 85, 1, 1, 1, 1)
 var ogre = new enemy("Ogre", 105, 3, 4, 4, 5)
 // creating the skills
-var punch = new move(10,100)
-var kick = new move(15,85)
-var wisp = new move(12,100)
+var punch = new move("Punch",10,100)
+var kick = new move("Kick",15,85)
+var wisp = new move("wisp",12,100)
 var minorheal = new healmove(5,100)
-var scratch = new move(2,100)
+var scratch = new move("Scratch",2,100)
 // class creation
 var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
 var userclass = prompt("Please Choose your class.")
@@ -86,13 +87,11 @@ var battle = function(enemy, player){
 if (randnum > 5){
     catbattle = true
 } else {
-    console.log("No Fight!")
+    console.log("No Fight!");
 }
 if (catbattle = true){
-    console.log('Cat appeared!')
+    console.log('Cat appeared!');
 }
-if (catbattle = true) do {
-    var input = prompt("What do you do!?")
     Array.prototype.contains = function(elem)
 {
    for (var i in this)
@@ -101,5 +100,23 @@ if (catbattle = true) do {
    }
    return false;
 }
-if (inventory.contains(bomb));
-else ;
+if (catbattle = true) do {
+    var input = prompt("What do you do!?");
+console.log("Commands: Inventory, " +skills.name+ ".");
+if (input == "Inventory"){
+    alert("Your Items are" +inventory.name+ ".");
+    var iteminput = prompt("What Item would you like to use?");
+    if (iteminput == "Bomb"){
+        if (inventory.contains(bomb)){
+            console.log("You threw a bomb at" +evilcat.name+ ".");
+            evilcat.health = evilcat.health - bomb.damage;
+        }
+    }
+}
+else { console.log("You don't have this item!");
+input;
+    }
+}
+while (evilcat.health <= 0);
+
+
