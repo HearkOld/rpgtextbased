@@ -11,7 +11,8 @@
 var name = prompt("what is your name?")
 
 // creating players
-var player = function(health, attack, defense, specialattack, specialdefense){
+var player = function(name, health, attack, defense, specialattack, specialdefense){
+    this.name = name;
     this.health = health;
     this.attack = attack;
     this.defense = defense;
@@ -57,8 +58,20 @@ else if (userclass == "Mage" || "mage"){
     var user = new player(100, 6, 6, 14, 11)
     var skills = [wisp, minorheal]
 }
-// names
-var names;
+// items
+var item = function(name, description, damage, heal){
+    this.name = name;
+    this.description = description;
+    this.damage = damage;
+    this.heal = heal;
+}
+var minorpotion = new item("Minor Potion", "Heal by 45pts", 0, 45);
+var majorpotion = new item("Major Potion", "Heal by 85pts", 0, 85);
+var bomb = new item("Bomb", "Explodes and does 30 damage to one enemy.", 30, 0);
+
+// inventory
+var inventory = [];
+
 
 // battle mod
 var randnum = Math.floor(Math.random(10)*10);
