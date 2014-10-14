@@ -1,2 +1,0 @@
-$$$$$$$$$$$$$$$$
-instalize.gitignore
