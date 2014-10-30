@@ -78,49 +78,42 @@ var randnum = Math.floor(Math.random(10)*10);
 
 // battle script
 // Part 1
-var selectedmonster;
-console.log('Cat appeared!')
-var battle = function(enemy, player){
+//Make randomnumber Here
+var randomnumber = Math.floor(Math.random(10)*10);
 
+//Make selectedmonster Here
+var selectedmonster;
+if (randomnumber >= 0 && randomnumber < 3){
+	selectedmonster = evilcat;
 }
-if (randnum > 5){
-    catbattle = true
-} else {
-    console.log("No Fight!");
+else if (randomnumber > 3 && randomnumber < 6){
+	selectedmonster = orc;
 }
-if (catbattle = true){
-    selectedmonster = evilcat;
-    console.log('Cat appeared!');
+else if (randomnumber > 6){
+	selectedmonster = ogre;
 }
-    Array.prototype.contains = function(elem)
-{
-   for (var i in this)
-   {
-       if (this[i] == elem) return true;
-   }
-   return false;
+alert(selectedmonster.name+ " appeared!")
+//Battle Script
+var monsterdead = 0;
+var playerdead = 0;
+//player goes first, playerturn = 1
+var playerturn = 1;
+var monsterturn = 0;
+while (monsterdead === 0 || playerdead === 0){
+//Player's Turn
+while (playerturn == 1){
+	//Write Player Attack Script	
 }
-if (catbattle = true) do {
-    var input = prompt("What do you do!?");
-if (input == "Inventory"){
-    console.log("Commands: Inventory, " +skills.name+ ".");
-    alert("Your Items are" +inventory.name+ ".");
-    var iteminput = prompt("What Item would you like to use?");
-    if (iteminput == "Bomb"){
-        if (inventory.contains(bomb)){
-            console.log("You threw a bomb at" +selectedmonster.name+ ".");
-            selectedmonster.health = selectedmonster.health - bomb.damage;
-        }
-    }
+//Monster's Turn
+while (monsterturn == 1){
+	//Write Monster Attack Script	
 }
-else { console.log("You don't have this item!");
-input;
-    }
+//When Monster Dies
+if (selectedmonster.health <= 0){
+	
 }
-while (selectedmonster.health <= 0){
-    if (selectedmonster.health <= 0){
-    console.log("You killed the " +selectedmonster);
-    console.log("Cat dropped a Minor Potion");
-    item.push(minorpotion);
-    }
-};
+//When Player Dies
+if (player.health <= 0){
+	
+}
+}
