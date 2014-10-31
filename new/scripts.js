@@ -47,6 +47,8 @@ var kick = new move("Kick",15,85)
 var wisp = new move("wisp",12,100)
 var minorheal = new healmove(5,100)
 var scratch = new move("Scratch",2,100)
+// Stat Modifiers
+punch.damage = punch.damage + user.attack - selectedmonster.defense
 // class creation
 var classmessage = alert("Availiable classes are: Paladin, Mage, Marksman")
 var userclass = prompt("Please Choose your class.")
@@ -102,7 +104,17 @@ var monsterturn = 0;
 while (monsterdead === 0 || playerdead === 0){
 //Player's Turn
 while (playerturn == 1){
-	//Write Player Attack Script	
+	var choice = prompt("What will you do?");
+	if (choice == "Attack", "att", "a"){
+		var attackchoice = prompt("What attack?")
+		if (attackchoice == "punch" || "Punch" || "p"){
+		if (punch in skills){
+			console.log(user.name+ " used Punch")
+			selectedmonster.health = selectedmonster.health - punch.damage
+			console.log(selectedmonster.name+ " has " +selectedmonster.health+ " health left!")
+			}	
+		}
+	}
 }
 //Monster's Turn
 while (monsterturn == 1){
