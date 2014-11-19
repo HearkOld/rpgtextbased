@@ -1,0 +1,222 @@
+#jsConsole
+{
+	position: absolute;
+	top: 50px;
+	left: 600px;
+	height: 350px;
+	width: 417px;
+	background-image: url('pix/bg.png');
+	overflow: hidden;
+}
+#jsConsole h1
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	line-height: 23px;
+	text-align: center;
+	background-image: url('pix/h1.gif');
+	cursor: move;
+}
+#jsConsole a.close
+{
+	background-image: url('pix/close.png');
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	text-decoration: none;
+	line-height: 23px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#jsConsole a.hide
+{
+	background-image: url('pix/hide.png');
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	text-decoration: none;
+	line-height: 23px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#jsConsole a.show
+{
+	background-image: url('pix/show.png');
+	position: absolute;
+	top: 0px;
+	left: 50px;
+	text-decoration: none;
+	line-height: 23px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#jsTabs
+{
+	width: 415px;
+	height: 30px;
+	border: solid;
+	border-width: 0px 1px 0px 1px;
+	border-color: #B1B1B1;
+	padding: 5px 0px 0px 0px;
+}
+#jsdivLog
+{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+	cursor: pointer;
+}
+#jsdivError
+{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+}
+#jsdivTrace
+{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+}
+#jsdivHTML
+{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+}
+#jsdivCSS{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+}
+#jsdivScript{
+	width: 63px;
+	float:left;
+	text-align: center;
+	margin-left: 5px;
+	background-image: url('pix/inactiveTab.png');
+}
+#jsTabs a
+{
+	text-decoration: none;
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: black;
+	margin-left: 5px;
+	background-repeat: repeat-y;
+}
+#jsTLog
+{
+	position: absolute;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	width: 415px;
+	height:302px;
+	top: 46px;
+	padding: 0px;
+}
+#jsTLog p
+{
+	margin: 0px;
+	padding: 3px;
+	width: 409px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #9E9E9E;
+}
+#jsTError
+{
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	position: absolute;
+	left: 0px;
+	width: 415px;
+	height:302px;
+	top: 46px;
+}
+#jsTError p
+{
+	margin: 0px;
+	padding: 3px;
+	width: 409px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #9E9E9E;
+	background: red;
+}
+#jsTTrace
+{
+	position: absolute;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	width: 415px;
+	top: 46px;
+	height:302px;
+}
+#jsTTrace p
+{
+	margin: 0px;
+	padding: 3px;
+	width: 409px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #9E9E9E;
+}
+#jsTHTML
+{
+	position: absolute;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	width: 415px;
+	height:302px;
+	top:46px;
+}
+#jsTCSS
+{
+	position: absolute;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	width: 415px;
+	height:302px;
+	display: none;
+}
+#jsTScript
+{
+	position: absolute;
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #B1B1B1;
+	overflow: auto;
+	width: 415px;
+	height:302px;
+	display: none;
+}

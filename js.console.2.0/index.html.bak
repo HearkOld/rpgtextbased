@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>js.console 2.0</title>
+<script src="jsConsoleResource/js.console.js"></script>
+<link rel="stylesheet" type="text/css" href="jsConsoleResource/js.console.css"/>
+</head>
+<body onmousemove="dragIt(event)">
+Lorep ipsum sit amet dolor!
+<script>
+con = new jsConsole("js.console 2.0");
+con.log("Some info, that is to long to bee seen in one line wont you agree that this sucks!!","info");
+con.log("Some info","warn");
+con.log("Some info","info");
+con.log("Some info","info");
+con.log("Some info, that is to long to bee seen in one line wont you agree that this sucks!!","info");
+con.log("Some info","warn");
+t=0;
+y=7;
+con.addTrace("The Answer",t);
+con.addTrace("varVal",y);
+</script>
+</body>
+</html>
