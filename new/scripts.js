@@ -104,18 +104,7 @@ var monsterturn = 0;
 while (monsterdead === 0 || playerdead === 0){
 //Player's Turn
 while (playerturn == 1){
-	var choice = prompt("What will you do?");
-	if (choice == "Attack", "att", "a"){
-		var attackchoice = prompt("What attack?")
-		if (attackchoice == "punch" || "Punch" || "p"){
-		if (punch in skills){
-			console.log(user.name+ " used Punch")
-			selectedmonster.health = selectedmonster.health - punch.damage
-			console.log(selectedmonster.name+ " has " +selectedmonster.health+ " health left!")
-			}	
-		}
-	}
-}
+
 //Monster's Turn
 while (monsterturn == 1){
 	//Write Monster Attack Script	
